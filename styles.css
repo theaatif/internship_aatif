@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-content img {
+    width: 80px;
+    height: auto;
+}
+
+.header-content h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.header-content h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.header-content .supported-by {
+    margin: 20px 0;
+}
+
+.header-content .supported-by .logos img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.logos{
+    max-height: 5000;
+    max-width: 5000;
+}
+
+main {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+.certificate {
+    background-color: rgb(157, 200, 240);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate img {
+    width: 80px;
+    height: auto;
+}
+
+.certificate h3 {
+    margin: 20px 0;
+}
+
+.certificate p {
+    margin: 10px 0;
+}
+
+.certificate .grade {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.grade-details {
+    margin-top: 20px;
+    border: 1px white solid;
+}
+
+.grade-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.grade-details li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
